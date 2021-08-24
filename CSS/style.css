@@ -1,0 +1,113 @@
+body {
+  background-image: url(https://static.wikia.nocookie.net/naruto/images/5/50/Wiki-background);
+  background-color: #fdc355;
+  text-align: center;
+  color: #40514E;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+}
+h1 {
+  color: #40514E;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+}
+hr {
+  border: dotted #11999E 6px;
+  border-bottom: none;
+  width: 20%;
+  margin: 50px auto;
+}
+p {
+  line-height: 2;
+  text-align: left;
+}
+a {
+  color: #11999E;
+  text-decoration: none;
+}
+a:hover {
+  color: #fdc366;
+}
+cite {
+  padding-left: 200px;
+}
+#main {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 50%;
+  margin:auto;
+  text-align: center;
+  justify-content: center;
+  background-color: #E4F9F5;
+}
+#image-div {
+  margin-left: auto;
+  margin-right: auto;
+}
+#image {
+  width: 85%;
+}
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+#tribute-info {
+  text-align: center;
+  justify-content: center;
+}
+.centered-content-1 {
+  margin: auto;
+  justify-content: center;
+  display: block;
+  width: 50%
+}
+.centered-content {
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
+.image-left{
+  width: 40%;
+  float: right;
+  padding-left: 10px;
+}
+.image-right{
+  width: 40%;
+  float: left;
+  padding-right: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
